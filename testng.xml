@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="HotelCruiseSuite">
+    <listeners>
+        <listener class-name="tripCostReport.MyListener"/>
+    </listeners>
+    <test name="Hotel Cruise Automation">
+        <classes>
+            <class name="testCases.HotelTest"/>
+        </classes>
+    </test>
+</suite>
